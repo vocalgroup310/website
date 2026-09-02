@@ -292,18 +292,17 @@ img { max-width: 100%; display: block; }
 }
 
 .scroll-cue {
-  position: absolute;
-  bottom: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
-  width: 26px;
-  height: 42px;
-  border: 2.5px solid var(--cream-2);
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  padding-top: 8px;
+   position: absolute;
+   bottom: 4rem;
+   left: 50%;
+   display: flex;
+   justify-content: center;
+   width: 24px;
+   height: 24px;
+   border-right: 4px solid var(--cream-2);
+   border-bottom: 4px solid var(--cream-2);
+   transform: rotate(45deg);
+   animation: bounce 1.5s infinite;
 }
 .scroll-cue span {
   width: 4px;
