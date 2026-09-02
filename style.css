@@ -472,7 +472,7 @@ img { max-width: 100%; display: block; }
   background: var(--cream-2);
   border: 3px solid var(--ink-soft);
 }
-.timeline-item.is-past .timeline-dot { border-color: #b9b0a0; background: var(--cream); opacity: 0.6; }
+.timeline-item.is-past .timeline-dot { border-color: #b9b0a0; background: #e2dbcb; }
 .timeline-item.is-past .timeline-content { opacity: 0.62; }
 .timeline-item.is-next .timeline-dot {
   border-color: var(--rust);
