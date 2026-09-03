@@ -390,6 +390,13 @@ img { max-width: 100%; display: block; }
 }
 
 /* ---------- Voice groups ---------- */
+
+.stemgroepfoto {
+   border-radius: 20px;
+   border: 2px solid var(--cream-2);
+   margin-top: 20px;
+}
+
 .voice-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
