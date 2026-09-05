@@ -413,10 +413,7 @@ img { max-width: 100%; display: block; }
   color: var(--cream);
   transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
 }
-.voice-card:hover {
-  transform: translateY(-6px) rotate(-0.5deg);
-  background: rgba(255,255,255,0.08);
-}
+
 .voice-card[data-accent="yellow"] { border-color: color-mix(in srgb, var(--yellow) 55%, transparent); }
 .voice-card[data-accent="magenta"] { border-color: color-mix(in srgb, var(--magenta) 55%, transparent); }
 .voice-card[data-accent="blue"] { border-color: color-mix(in srgb, var(--blue) 55%, transparent); }
