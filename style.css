@@ -293,7 +293,7 @@ img { max-width: 100%; display: block; }
 
 .scroll-cue {
    position: absolute;
-   bottom: 4rem;
+   bottom: 80px;
    left: 50%;
    display: flex;
    justify-content: center;
@@ -302,20 +302,13 @@ img { max-width: 100%; display: block; }
    border-right: 4px solid var(--cream-2);
    border-bottom: 4px solid var(--cream-2);
    transform: rotate(45deg);
-   animation: bounce 1.5s infinite;
-}
-.scroll-cue span {
-  width: 4px;
-  height: 8px;
-  border-radius: 3px;
-  background: var(--yellow);
-  animation: scroll-bounce 1.6s ease infinite;
+   animation: scroll-bounce 1.5s infinite;
 }
 
 @keyframes scroll-bounce {
-  0% { transform: translateY(0); opacity: 1; }
-  70% { transform: translateY(14px); opacity: 0; }
-  100% { transform: translateY(0); opacity: 0; }
+  0% { bottom: 94px; opacity: 1; }
+  70% { bottom: 80px; opacity: 0; }
+  100% { bottom: 80px; opacity: 0; }
 }
 @keyframes fade-up {
   from { opacity: 0; transform: translateY(24px); }
@@ -377,7 +370,6 @@ img { max-width: 100%; display: block; }
 .squiggle {
   position: absolute;
   width: 160px;
-  opacity: 0.9;
   z-index: 0;
   pointer-events: none;
 }
@@ -426,19 +418,6 @@ img { max-width: 100%; display: block; }
 .voice-card[data-accent="magenta"] { border-color: color-mix(in srgb, var(--magenta) 55%, transparent); }
 .voice-card[data-accent="blue"] { border-color: color-mix(in srgb, var(--blue) 55%, transparent); }
 .voice-card[data-accent="rust"] { border-color: color-mix(in srgb, var(--rust) 55%, transparent); }
-
-.voice-card[data-accent="yellow"] .voice-icon { color: var(--yellow); }
-.voice-card[data-accent="magenta"] .voice-icon { color: var(--magenta); }
-.voice-card[data-accent="blue"] .voice-icon { color: var(--blue); }
-.voice-card[data-accent="rust"] .voice-icon { color: var(--rust); }
-
-.voice-icon {
-  display: inline-flex;
-  width: 44px;
-  height: 44px;
-  margin-bottom: 1rem;
-}
-.voice-icon svg { width: 100%; height: 100%; }
 
 .voice-card h3 { color: var(--white); }
 
