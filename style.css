@@ -56,7 +56,7 @@ p { margin: 0 0 1em; }
 
 a { color: inherit; text-decoration: none; }
 
-img { display: block; }
+img { max-width: 100%; display: block; }
 
 .grain {
   position: fixed;
@@ -395,6 +395,7 @@ img { display: block; }
    width: 120%;
    left: -10%;
    position: relative;
+   max-width: 120%;
 }
 
 .stemgroepfotodiv {
@@ -511,7 +512,7 @@ img { display: block; }
 
 /* ---------- Media ---------- */
 
-.fotos { max-width: 100%; border: 2px solid var(--cream-2); border-radius: 20px; margin-top: 20px; margin-bottom: 20px; }
+.fotos { border: 2px solid var(--cream-2); border-radius: 20px; margin-top: 20px; margin-bottom: 20px; }
 
 .youtubevideo { width: 100%; aspect-ratio: 16/9; }
 
