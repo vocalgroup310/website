@@ -567,13 +567,12 @@ img { max-width: 100%; display: block; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {
-  .hero-inner {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
+  .hero-inner { grid-template-columns: 1fr; text-align: center; }
   .hero-art { max-width: 260px; margin: 0 auto; }
   .hero-actions { justify-content: center; }
   .hero-tagline { margin-left: auto; margin-right: auto; }
+
+.scroll-cue { visibility: hidden; }
 
   .nav-links {
     position: fixed;
