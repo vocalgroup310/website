@@ -512,7 +512,9 @@ img { max-width: 100%; display: block; }
 
 /* ---------- Media ---------- */
 
-.fotos { border: 2px solid var(--cream-2); border-radius: 20px; margin-top: 20px; margin-bottom: 20px; }
+.fotos { border: 2px solid var(--cream-2); border-radius: 20px; margin-top: 20px; }
+
+.glennTekstje { text-align: right; font-size: 0.8rem; margin: 5px 0px 50px 0px; max-width: 100%; color: var(--cream-2); }
 
 .youtubevideo { width: 100%; aspect-ratio: 16/9; }
 
