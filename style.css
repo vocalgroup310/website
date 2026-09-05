@@ -505,6 +505,8 @@ img { max-width: 100%; display: block; }
 
 .fotos { border: 2px solid var(--cream-2); border-radius: 20px; margin-top: 20px; margin-bottom: 20px; }
 
+.youtubevideo { width: 100%; aspect-ratio: 16/9; }
+
 
 /* ---------- Boek ons ---------- */
 .email-link {
