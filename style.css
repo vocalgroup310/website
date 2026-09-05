@@ -503,7 +503,7 @@ img { max-width: 100%; display: block; }
 
 /* ---------- Media ---------- */
 
-.fotos { border: 2px solid var(--cream-2); border-radius: 20px; }
+.fotos { border: 2px solid var(--cream-2); border-radius: 20px; margin-top: 20px; margin-bottom: 20px; }
 
 
 /* ---------- Boek ons ---------- */
