@@ -574,6 +574,8 @@ img { max-width: 100%; display: block; }
 
 .scroll-cue { visibility: hidden; }
 
+.squiggle { visibility: hidden }
+
   .nav-links {
     position: fixed;
     top: 0; right: 0;
