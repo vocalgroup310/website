@@ -392,8 +392,17 @@ img { max-width: 100%; display: block; }
 /* ---------- Voice groups ---------- */
 
 .stemgroepfoto {
+   width: 120%;
+   top: -10px;
+   left: -10%;
+   position: relative;
+}
+
+.stemgroepfotodiv {
+   max-width: 100%;
+   aspect-ratio: 3/2;
+   overflow: hidden;
    margin-top: 20px;
-   margin-bottom: 20px;
 }
 
 .voice-grid {
