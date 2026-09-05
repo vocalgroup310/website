@@ -501,8 +501,10 @@ img { max-width: 100%; display: block; }
 .timeline-content p { margin: 0; color: var(--ink); }
 .timeline-content a { text-decoration: underline; text-decoration-color: var(--yellow); text-decoration-thickness: 2px; }
 
-/* ---------- Media CTA ---------- */
-.section-media .btn { margin-top: 1rem; }
+/* ---------- Media ---------- */
+
+.fotos { border: 2px solid var(--cream-2); border-radius: 20px; }
+
 
 /* ---------- Boek ons ---------- */
 .email-link {
