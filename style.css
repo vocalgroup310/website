@@ -56,7 +56,7 @@ p { margin: 0 0 1em; }
 
 a { color: inherit; text-decoration: none; }
 
-img { max-width: 100%; display: block; }
+img { display: block; }
 
 .grain {
   position: fixed;
@@ -393,7 +393,6 @@ img { max-width: 100%; display: block; }
 
 .stemgroepfoto {
    width: 120%;
-   top: -10px;
    left: -10%;
    position: relative;
 }
@@ -407,7 +406,7 @@ img { max-width: 100%; display: block; }
 
 .voice-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
   margin-top: 2.5rem;
 }
