@@ -298,7 +298,7 @@ img { max-width: 100%; display: block; }
 @keyframes scroll-bounce {
   0% { bottom: 94px; opacity: 1; }
   70% { bottom: 80px; opacity: 0; }
-  100% { bottom: 80px; opacity: 0; }
+  100% { bottom: 94px; opacity: 0; }
 }
 @keyframes fade-up {
   from { opacity: 0; transform: translateY(24px); }
